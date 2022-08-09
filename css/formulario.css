@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#3841ba4f, #e8fcfd);
+    height: 100vh;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 5px 0;
+}
+
+#subtitulo{
+    margin-left: 50px;
+}
+
+.grupo{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    margin: 5px 0 10px 0;
+}
+
+#nome{
+    border-radius: 3px;
+}
+
+#sobrenome{
+    border-radius: 3px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+}
+
+#e-mail{
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+#senioridade{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #92c9c9;
+    border: 1px solid;
+}
+
+.botao:hover{
+    background-color: #e0f5f5fc;
+    cursor: pointer;
+}
